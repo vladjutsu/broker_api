@@ -6,7 +6,7 @@ namespace testapp.Models
 {
     public class User
     {
-        //useridpaypal2
+        //useridpaypal3
         public int UserId { get; set; }
         public string Name { get; set; }
         public string SecondName { get; set; }

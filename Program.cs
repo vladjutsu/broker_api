@@ -15,28 +15,8 @@ namespace testapp
     {
         public static void Main(string[] args)
         {
-            var host = BuildWebHost(args); //CreateWebHostBuilder(args).Build().Run();
+            var host = BuildWebHost(args);
 
-            /*using (ApplicationContext db = new ApplicationContext())
-            {
-                db.Database.EnsureCreated();
-
-                User user1 = new User { Name = "Tom"  };
-                User user2 = new User { Name = "Alice" };
-
-                db.Users.Add(user1);
-                db.Users.Add(user2);
-                db.SaveChanges();
-                //Console.WriteLine("Объекты успешно сохранены");
-
-                var users = db.Users.ToList();
-                //Console.WriteLine("Список объектов:");
-                foreach (User u in users)
-                {
-                    //Console.WriteLine($"{u.Id}.{u.Name}");
-                }
-            }*/
-            //Console.Read();
             host.Run();
         }
 
