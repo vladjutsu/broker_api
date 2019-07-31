@@ -6,6 +6,7 @@ namespace testapp.Models
 {
     public class User
     {
+        //useridpaypal2
         public int UserId { get; set; }
         public string Name { get; set; }
         public string SecondName { get; set; }
